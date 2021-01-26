@@ -1,0 +1,33 @@
+{
+    "chart": {
+      "caption": "Frequency",
+      "lowerLimit": "0",
+      "upperLimit": "50",
+      "numberSuffix": " Hz",
+      "valueFontSize": "20",
+      "valueFontColor": "#26acd9",
+      "captionFontColor": "#26acd9",
+      "showhovereffect": "1",
+      "origW": "400",
+      "origH": "200",
+      "ledSize": "3",
+      "ledGap": "2",
+      "manageResize": "1",
+      "theme": "fusion",
+      "showTickMarks": "0",
+      "showTickValues": "0"
+    },
+    "annotations": {
+      "showbelow": "1"
+    },
+    "colorRange": {
+      "color": [
+        {
+          "minValue": "0",
+          "maxValue": "50",
+          "code": "#26acd9"
+        }
+      ]
+    },
+    "value": "0"
+  }

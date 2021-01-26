@@ -1,0 +1,35 @@
+{
+  "name": "ioserver",
+  "version": "1.0.0",
+  "description": "This is webscada",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js --exec  \"npm run lint && node\"",
+    "lint": "eslint src/**/*.js"
+  },
+  "author": "Harsh Mashruwala",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "joi": "^14.3.1",
+    "jsonschema": "^1.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "modbus-stream": "^0.44.0",
+    "morgan": "^1.9.1",
+    "mosca": "^2.8.3",
+    "mqtt": "^4.1.0",
+    "nodemon": "^2.0.2",
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.21.4",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "tedious": "^8.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^6.1.2"
+  }
+}

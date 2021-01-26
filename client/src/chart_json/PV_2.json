@@ -1,0 +1,49 @@
+{
+    "chart": {
+       "caption": "Voltage",
+       "numberPrefix": "",
+       "numdisplaysets": "10",
+       "labeldisplay": "rotate",
+       "showRealTimeValue": "0",
+       "showValues": "1",
+       "theme": "fusion",
+       "plotToolText": "$label<br>Price: <b>$dataValue</b>",
+       "setAdaptiveYMin": "1",
+       "bgColor": "#d9d9d9"
+    },
+    "categories": [
+       {
+          "category": [
+             {
+                "label": ""
+             }
+          ]
+       }
+    ],
+    "dataset": [
+       {
+        "seriesname": "RY Voltage",
+          "data": [
+             {
+                "value": "0"
+             }
+          ]
+       },
+       {
+        "seriesname": "YB Voltage",
+          "data": [
+             {
+                "value": "0"
+             }
+          ]
+       },
+       {
+        "seriesname": "BR Voltage",
+          "data": [
+             {
+                "value": "0"
+             }
+          ]
+       }
+    ]
+  }

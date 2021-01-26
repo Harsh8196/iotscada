@@ -1,0 +1,33 @@
+{
+    "chart": {
+      "caption": "B Line Current",
+      "lowerLimit": "0",
+      "upperLimit": "300",
+      "numberSuffix": " A",
+      "valueFontSize": "20",
+      "valueFontColor": "#d22d2d",
+      "captionFontColor": "#d22d2d",
+      "showhovereffect": "1",
+      "origW": "400",
+      "origH": "200",
+      "ledSize": "3",
+      "ledGap": "2",
+      "manageResize": "1",
+      "theme": "fusion",
+      "showTickMarks": "0",
+      "showTickValues": "0"
+    },
+    "annotations": {
+      "showbelow": "1"
+    },
+    "colorRange": {
+      "color": [
+        {
+          "minValue": "0",
+          "maxValue": "300",
+          "code": "#d22d2d"
+        }
+      ]
+    },
+    "value": "0"
+  }

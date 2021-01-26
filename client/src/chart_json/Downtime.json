@@ -1,0 +1,55 @@
+{
+    "chart": {
+        "caption": "Downtime Report",
+        "numberSuffix": " Hr",
+        "bgColor": "#ffffff",
+        "startingAngle": "360",
+        "showLegend": "0",
+        "formatNumberScale": "1",
+        "defaultCenterLabel": "Total Downtime",
+        "centerLabelFontSize": "11",
+        "centerLabelBold": "1",
+        "showTooltip": "1",
+        "decimals": "2",
+        "theme": "fusion",
+        "pieRadius": "90"
+    },
+    "data": [
+        {
+            "label": "UV/OV Trip",
+            "value": "0"
+        },
+        {
+            "label": "High Temp. Trip",
+            "value": "0"
+        },
+        {
+            "label": "Exhaust Press. Trip",
+            "value": "0"
+        },
+        {
+            "label": "Over Speed",
+            "value": "0"
+        },
+        {
+            "label": "Emergency Stop",
+            "value": "0"
+        },
+        {
+            "label": "Inlet Pressure Low",
+            "value": "0"
+        },
+        {
+            "label": "Oil Tank Level Low",
+            "value": "0"
+        },
+        {
+            "label": "Control Oil Pressure Low",
+            "value": "0"
+        },
+        {
+            "label": "Reverse Power Trip",
+            "value": "0"
+        }
+    ]
+}

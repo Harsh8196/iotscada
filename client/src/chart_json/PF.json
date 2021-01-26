@@ -1,0 +1,33 @@
+{
+    "chart": {
+      "caption": "Power Factor",
+      "lowerLimit": "-1",
+      "upperLimit": "1",
+      "numberSuffix": "",
+      "valueFontSize": "20",
+      "valueFontColor": "#9933ff",
+      "captionFontColor": "#9933ff",
+      "showhovereffect": "1",
+      "origW": "400",
+      "origH": "200",
+      "ledSize": "3",
+      "ledGap": "2",
+      "manageResize": "1",
+      "theme": "fusion",
+      "showTickMarks": "0",
+      "showTickValues": "0"
+    },
+    "annotations": {
+      "showbelow": "1"
+    },
+    "colorRange": {
+      "color": [
+        {
+          "minValue": "0",
+          "maxValue": "1",
+          "code": "#9933ff"
+        }
+      ]
+    },
+    "value": "0"
+  }

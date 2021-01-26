@@ -1,0 +1,26 @@
+const AuthenticationController = require('../controller/AuthenticationController')
+const IOServerController = require('../controller/IOServerController')
+const VariableController = require('../controller/variableController')
+const AlarmController = require('../controller/AlarmController')
+const DatalogController = require('../controller/DatalogController')
+const EnergyGenController = require('../controller/EnergyGenController')
+
+
+module.exports = (app) => {
+    app.post('/register', AuthenticationController.register )
+    app.post('/login', AuthenticationController.login)
+    app.post('/createIOServer', IOServerController.CreateIOServer)
+    app.get('/getIOServer', IOServerController.GetIoServer)
+    app.get('/getCompany', IOServerController.GetCompany)
+    app.post('/createVariable', VariableController.CreateVariable)
+    app.post('/getVariable', VariableController.GetVariable)
+    app.post('/createAlarm', AlarmController.CreateAlarm)
+    app.post('/getAlarm', AlarmController.GetAlarm)
+    app.post('/getDatalogValue', DatalogController.ReadDatalogTable)
+    app.get('/tdDowntime', DatalogController.GetTD_Downtime)
+    app.post('/downtime', DatalogController.GetDowntime)
+    app.post('/getAlarmdata', AlarmController.GetAlarmData)
+    app.post('/tdEnergyGen', EnergyGenController.TodayEnergyGen)
+    app.post('/ydEnergyGen', EnergyGenController.YesterdayEnergyGen)
+    app.post('/energyGen', EnergyGenController.EnergyGen)
+}

@@ -1,0 +1,28 @@
+{
+    "chart": {
+       "caption": "Current RPM",
+       "lowerLimit": "0",
+       "upperLimit": "7500",
+       "lowerLimitDisplay": "0",
+       "upperLimitDisplay": "7500",
+       "showValue": "1",
+       "valueBelowPivot": "1",
+       "theme": "fusion"
+    },
+    "colorRange": {
+       "color": [
+          {
+             "minValue": "0",
+             "maxValue": "7500",
+             "code": "#e44a00"
+          }
+       ]
+    },
+    "dials": {
+       "dial": [
+          {
+             "value": "5"
+          }
+       ]
+    }
+ }
